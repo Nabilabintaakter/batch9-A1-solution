@@ -274,3 +274,77 @@ body{
     margin-left: 165px;
     margin-top: 10px;
 }
+
+                        /* sixth section style starts here */
+.sixth-section-container{
+    width: 1320px;
+    height: 986.07px;
+    margin: 120px auto;
+    position: relative;
+}
+
+.sixth-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sixth-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.sixth-text-container h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight:900;
+    line-height: 91px;
+    margin-bottom: 28px;
+}
+#holiday{
+    color:rgb(255, 0, 0);
+}
+.sixth-text-container p{
+    text-align: center;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 64px;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 76.88%;
+    border-radius: 15px;
+}
+.giftbox{
+    width: 1320px;
+    height:700px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#box{
+    border: 2.5px dashed rgb(185, 185, 185);
+}
+
+#circle{
+    border: 2.5px dashed rgb(185, 185, 185);
+    margin: 0;
+    /* position: absolute;
+    left: 145%;
+    margin-bottom: 50px; */
+    margin-bottom: 170px;
+    margin-right: 40px;
+
+}
